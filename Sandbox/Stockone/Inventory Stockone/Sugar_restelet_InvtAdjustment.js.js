@@ -26,7 +26,7 @@ define(['N/record', 'N/https', 'N/http', 'N/search', 'N/config', 'N/format'], fu
             });
             o_inventorytransfer.setValue({
                 fieldId: "account",
-                value: 216
+                value:216
             });
             for(var J = 0; J < inventory_adjustment_data.length; J++) {
                 var warehouse = inventory_adjustment_data[J].warehouse;
