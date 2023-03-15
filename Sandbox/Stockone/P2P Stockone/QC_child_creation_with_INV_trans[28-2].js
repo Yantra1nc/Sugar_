@@ -30,6 +30,7 @@ define(['N/record', 'N/https', 'N/http', 'N/search', 'N/config', 'N/format', 'N/
 
                 /* var lineref = line_reference.substring(1, 7);
                 log.debug("lineref", lineref); */
+		    
 
                 var batch_no = items[i].batch_no;
                 log.debug("batch_no", batch_no);
