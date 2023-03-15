@@ -28,6 +28,7 @@ define(['N/record', 'N/https', 'N/http', 'N/search', 'N/config', 'N/format', 'N/
 
             var PO_NO = search_IR[0].Created_from_PO;
             log.debug("PO_NO",PO_NO);
+            
 
             if (_logValidation(PO_NO)) {
                 var PO_obj = record.transform({
