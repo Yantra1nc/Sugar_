@@ -26,7 +26,7 @@ define(['N/record', 'N/https', 'N/http', 'N/search', 'N/config', 'N/format'], fu
 					o_inventorytransfer.setValue({
 						fieldId: 'transferlocation',
 						value: 1 // transferlocation 1 --> FC bhiwandi
-					})
+					});
                   o_inventorytransfer.setValue({
 						fieldId: 'memo',
 						value:move_inventory_data[0].reason
