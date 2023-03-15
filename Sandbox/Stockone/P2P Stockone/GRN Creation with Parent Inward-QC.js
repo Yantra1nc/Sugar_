@@ -34,6 +34,7 @@ define(['N/record', 'N/https', 'N/http', 'N/search', 'N/config', 'N/format', 'N/
                 value: formatedDate,
                 type: format.Type.DATE
             });
+		
 
             var po_reference = context.po_data[0].po_reference;
             //log.debug("po_reference", po_reference);
